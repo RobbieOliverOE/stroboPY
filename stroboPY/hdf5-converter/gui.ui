@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>hdf5gui</class>
+ <widget class="QMainWindow" name="hdf5gui">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>822</width>
+    <height>484</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>HDF5 Conversion Tool</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="input_file_gbox">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>801</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>drag and drop hdf5 files, then hit &quot;load all&quot;</string>
+    </property>
+    <widget class="FileDragDropListWidget" name="file_list">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>701</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="acceptDrops">
+      <bool>true</bool>
+     </property>
+     <property name="dragEnabled">
+      <bool>true</bool>
+     </property>
+     <property name="dragDropMode">
+      <enum>QAbstractItemView::DragDrop</enum>
+     </property>
+     <property name="movement">
+      <enum>QListView::Snap</enum>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="file_up">
+     <property name="geometry">
+      <rect>
+       <x>720</x>
+       <y>30</y>
+       <width>75</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>move up</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="file_down">
+     <property name="geometry">
+      <rect>
+       <x>720</x>
+       <y>60</y>
+       <width>75</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>move down</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="delete_button">
+     <property name="geometry">
+      <rect>
+       <x>720</x>
+       <y>90</y>
+       <width>75</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>delete</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="load_button">
+     <property name="geometry">
+      <rect>
+       <x>720</x>
+       <y>120</y>
+       <width>75</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(0, 255, 0);</string>
+     </property>
+     <property name="text">
+      <string>load all</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>170</y>
+      <width>801</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>choose a folder for the extracted data to be saved in</string>
+    </property>
+    <widget class="QLineEdit" name="save_folder">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>701</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="folder_browser">
+     <property name="geometry">
+      <rect>
+       <x>720</x>
+       <y>30</y>
+       <width>75</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(0, 255, 0);</string>
+     </property>
+     <property name="text">
+      <string>Browse</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>240</y>
+      <width>291</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>choose types of data to save</string>
+    </property>
+    <widget class="QCheckBox" name="average_check">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>40</y>
+       <width>171</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>averaged dT/T data</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="metadata_check">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>70</y>
+       <width>70</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>metadata</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="spectra_check">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>100</y>
+       <width>271</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>probe, reference and error spectra for each sweep</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="sweeps_check">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>130</y>
+       <width>151</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>dT/T data for each sweep</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="convert_button">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>160</y>
+       <width>161</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(0, 255, 0);</string>
+     </property>
+     <property name="text">
+      <string>convert</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_3">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>240</y>
+      <width>501</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>information</string>
+    </property>
+    <widget class="QPlainTextEdit" name="console">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>481</width>
+       <height>181</height>
+      </rect>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="status_bar"/>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>FileDragDropListWidget</class>
+   <extends>QListWidget</extends>
+   <header>filedragdroplistwidget</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
