@@ -58,7 +58,7 @@ The controls within this group box configure the Sepia2.
 
 Non-specified values have defaults in place to ensure they match the Sepia2 GUI screenshot shared by James on Feb 16th (shown below).
 
-`![Workflow configured within Sepia2 GUI](doc/sepia2_gui.png)
+`![Workflow configured within Sepia2 GUI](stroboPY/sepia2_gui.png)
 
 **Time Options**
 
@@ -78,9 +78,6 @@ GUI elements common with the acquisition tab should remain in sync if updated.
 
 Currently no functionality has be implemented for this tab.
 
-### Development
-
-The code has been built upon the source of `stroboPY.py` from [RobbieOliverOE/stroboPY](https://github.com/RobbieOliverOE/stroboPY). Areas of source code tied to removed GUI components have been removed, however much potentially redundant code still exists.
 
 #### Known Issues
 
