@@ -58,7 +58,7 @@ The controls within this group box configure the Sepia2.
 
 Non-specified values have defaults in place to ensure they match the Sepia2 GUI screenshot shared by James on Feb 16th (shown below).
 
-`![Workflow configured within Sepia2 GUI](stroboPY/sepia2_gui.png)
+`![Workflow configured within Sepia2 GUI](stroboPY/stroboPY/sepia2_gui.png)
 
 **Time Options**
 
