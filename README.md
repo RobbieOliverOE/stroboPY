@@ -1,14 +1,14 @@
-## Sepia2 x Andor Spectroscopy Control Software
+# Control software for stroboSCAT measurements
 
-This repository contains code for a Python GUI for configuring a PicoQuant Sepia2 laser controller and Andor camera for performing spectroscopy.
+This repository contains code for a Python GUI for configuring a PicoQuant Sepia2 laser controller and Andor camera for performing stroboscopic scattering microscopy, as first reported by Prof Naomi Ginsburg: https://www.nature.com/articles/s41563-019-0498-x
 
-Other cameras are included in the GUI, but are unlikely to be fully supported.
+Other cameras are included in the GUI, but are unlikely to be fully supported as of May 2026.
 
 ### Running
 
 The software can be executed by calling the main source file `pyTA/stroboPY.py` with Python.
 
-If the argument `mock` is passed (e.g. `python stroboPY.py mock`) the GUI will mock the Sepia2 and Andor connections, to allow synthetic images to be collected.
+If the argument `mock` is passed (e.g. `python stroboPY.py mock`) the GUI will mock the Sepia2 and Andor connections, to allow synthetic images to be collected, enabling software developments without needing access to the spectroscopy hardware.
 
 ### Interface
 
