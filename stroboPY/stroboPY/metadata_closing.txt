@@ -1,0 +1,46 @@
+date (yyyy-mm-dd): 2026-05-21
+time (hh:mm:ss): 10:15:56
+timezone: GMT Summer Time
+camera selection: 0
+camera selection text: Andor Zyla 5.5
+usb index: 0
+controller slot: 0
+oscillator slot: 100
+pump slot: 200
+probe slot: 300
+filename: newfile
+filepath: C:\Users\ph6fsp\Documents\newfile
+a metadata pump wavelength: 440nm
+a metadata pump power: 63.0
+a metadata pump spotsize: 
+a metadata probe wavelength: 640nm
+a metadata probe power: 76.0
+aoi height: 128
+aoi width: 128
+pixel binning: 0
+pixel binning text: 1x1
+t0: 1000.0
+baseosctrigger: 0
+baseosctrigger text: 80.00 MHz (int. A)
+divider: 8
+rep. rate (MHz): 10.00
+p2p time (ns): 100.0
+rise fall exp time (us): 100
+probe exp time (ms): 1.3
+on off pairs: 2000
+pump outenabled: True
+pump pulsed: True
+pump intensity (%): 63.0
+probe outenabled: True
+probe pulsed: True
+probe intensity (%): 76.0
+distribution: 2
+distribution text: From file
+timefile folder: C:\Users\ph6fsp\Documents\GitHub\PQLaserDrv\pyTA
+timefile path: timefile_default.tf
+tstart (ps): -1000.0
+tend (ps): 2000.0
+num tpoints: 31
+num sweeps: 50
+d time (ps): 0.0
+d jogstep (ps): 0.01

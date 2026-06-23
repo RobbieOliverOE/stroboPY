@@ -1,0 +1,158 @@
+(dp0
+Vdate (yyyy-mm-dd)
+p1
+V2026-05-21
+p2
+sVtime (hh:mm:ss)
+p3
+V10:15:56
+p4
+sVtimezone
+p5
+VGMT Summer Time
+p6
+sVcamera selection
+p7
+I0
+sVcamera selection text
+p8
+VAndor Zyla 5.5
+p9
+sVusb index
+p10
+I0
+sVcontroller slot
+p11
+I0
+sVoscillator slot
+p12
+I100
+sVpump slot
+p13
+I200
+sVprobe slot
+p14
+I300
+sVfilename
+p15
+Vnewfile
+p16
+sVfilepath
+p17
+VC:\u005cUsers\u005cph6fsp\u005cDocuments\u005cnewfile
+p18
+sVa metadata pump wavelength
+p19
+V440nm
+p20
+sVa metadata pump power
+p21
+V63.0
+p22
+sVa metadata pump spotsize
+p23
+V
+p24
+sVa metadata probe wavelength
+p25
+V640nm
+p26
+sVa metadata probe power
+p27
+V76.0
+p28
+sVaoi height
+p29
+I128
+sVaoi width
+p30
+I128
+sVpixel binning
+p31
+I0
+sVpixel binning text
+p32
+V1x1
+p33
+sVt0
+p34
+F1000.0
+sVbaseosctrigger
+p35
+I0
+sVbaseosctrigger text
+p36
+V80.00 MHz (int. A)
+p37
+sVdivider
+p38
+I8
+sVrep. rate (MHz)
+p39
+V10.00
+p40
+sVp2p time (ns)
+p41
+V100.0
+p42
+sVrise fall exp time (us)
+p43
+I100
+sVprobe exp time (ms)
+p44
+F1.3
+sVon off pairs
+p45
+I2000
+sVpump outenabled
+p46
+I01
+sVpump pulsed
+p47
+I01
+sVpump intensity (%)
+p48
+F63.0
+sVprobe outenabled
+p49
+I01
+sVprobe pulsed
+p50
+I01
+sVprobe intensity (%)
+p51
+F76.0
+sVdistribution
+p52
+I2
+sVdistribution text
+p53
+VFrom file
+p54
+sVtimefile folder
+p55
+VC:\u005cUsers\u005cph6fsp\u005cDocuments\u005cGitHub\u005cPQLaserDrv\u005cpyTA
+p56
+sVtimefile path
+p57
+Vtimefile_default.tf
+p58
+sVtstart (ps)
+p59
+F-1000.0
+sVtend (ps)
+p60
+F2000.0
+sVnum tpoints
+p61
+I31
+sVnum sweeps
+p62
+I50
+sVd time (ps)
+p63
+F0.0
+sVd jogstep (ps)
+p64
+F0.01
+s.
